@@ -2,7 +2,6 @@ package test;
 import static org.junit.Assert.assertThrows;
 import static org.junit.jupiter.api.Assertions.*;
 import clases.Maximos;
-import clases.Minimo;
 
 import org.junit.jupiter.api.Test;
 
@@ -12,7 +11,7 @@ class TestMaximos {
 	void test2valor1mayor() {
 		
 		int esperado = 2;
-		int obtenido = Maximos.Maximo2EnterosPositivos(2, 1);
+		int obtenido = Maximos.MaximoDe2EnterosPositivos(2, 1);
 		
 		assertEquals(esperado,obtenido);
 		
@@ -22,7 +21,7 @@ class TestMaximos {
 	void test2valor2mayor() {
 		
 		int esperado = 2;
-		int obtenido = Maximos.Maximo2EnterosPositivos(1, 2);
+		int obtenido = Maximos.MaximoDe2EnterosPositivos(1, 2);
 		
 		assertEquals(esperado,obtenido);
 		

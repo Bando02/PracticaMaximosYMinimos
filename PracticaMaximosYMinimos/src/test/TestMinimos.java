@@ -14,7 +14,7 @@ class TestMinimos {
 	void test2valor1menor() {
 		
 		int esperado = 2;
-		int obtenido = Maximos.Maximo2EnterosPositivos(2, 3);
+		int obtenido = Maximos.MaximoDe2EnterosPositivos(2, 3);
 		
 		assertEquals(esperado,obtenido);
 		
@@ -24,7 +24,7 @@ class TestMinimos {
 	void test2valor2menor() {
 		
 		int esperado = 2;
-		int obtenido = Maximos.Maximo2EnterosPositivos(5, 2);
+		int obtenido = Maximos.MaximoDe2EnterosPositivos(5, 2);
 		
 		assertEquals(esperado,obtenido);
 		
